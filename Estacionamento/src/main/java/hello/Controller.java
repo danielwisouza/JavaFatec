@@ -30,6 +30,7 @@ public class Controller {
 			return new Gson().toJson(carrosEncontrados);
 		});
 	}
+	
 	public void buscarModelo() {
 		get("/carro/modelo/:modelo", (req, res) -> {
 			String modelo =(req.params(":modelo"));	
