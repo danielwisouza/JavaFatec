@@ -1,1 +1,3 @@
 # JavaFatec
+
+## Exercicios 
